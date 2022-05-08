@@ -1,3 +1,57 @@
 body {
   background: blanchedalmond;
 }
+
+/* .container {
+  display: block;
+
+
+} */
+
+.a {
+  background-color: blue;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+.b {
+  background-color: red;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.c {
+  background-color: green;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+@media (min-width:1000px) {
+
+  .container {
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+
+  .a {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+  }
+
+  .b {
+    background-color: red;
+    height: 100px;
+    width: 75%;
+  }
+
+  .c {
+    background-color: green;
+    height: 100px;
+    width: 25%;
+    /* margin-left: auto;
+    margin-bottom: auto;
+    align-self: auto; */
+  }
+}

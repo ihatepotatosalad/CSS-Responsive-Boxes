@@ -22,32 +22,34 @@ body {
 
 .c {
   background-color: green;
-  min-height: 200px;
+  min-height: 500px;
   min-width: 200px;
 }
 
 @media (min-width:1000px) {
 
   .container {
-    float: left;
+
     height: 100%;
     width: 100%;
   }
 
   .a {
     background-color: blue;
-    height: 200px;
+    height: 100px;
     width: 100%;
   }
 
   .b {
     background-color: red;
+    float: left;
     height: 100px;
     width: 75%;
   }
 
   .c {
     background-color: green;
+    float: right;
     height: 100px;
     width: 25%;
     /* margin-left: auto;

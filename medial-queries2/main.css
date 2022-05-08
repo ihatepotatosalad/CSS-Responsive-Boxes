@@ -1,3 +1,96 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.a {
+  min-height: 200px;
+  background-color: red;
+}
+
+.b {
+  background-color: blue;
+  min-height: 400px;
+}
+
+.c {
+  background-color: green;
+  min-height: 100px;
+  min-width: 250px;
+  float: left;
+}
+
+.e {
+  background-color: purple;
+  min-height: 100px;
+  min-width: 250px;
+  float: left;
+}
+
+.d {
+  background-color: orange;
+  min-height: 100px;
+  min-width: 250px;
+  float: left;
+}
+
+.f {
+
+  min-height: 100px;
+  background-color: yellow;
+  width: 100%;
+  clear: both;
+}
+
+@media (min-width:1000px) {
+
+  .container {
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .a {
+    min-height: 200px;
+    background-color: red;
+  }
+
+  .b {
+    min-height: 200px;
+    float: left;
+    min-width: 75%;
+    background-color: blue;
+  }
+
+  .f {
+    min-height: 200px;
+    float: right;
+    min-width: 25%;
+    background-color: yellow;
+  }
+
+  .c {
+    background-color: green;
+    min-height: 100px;
+    min-width: 250px;
+    float: bottom;
+  }
+
+  .e {
+    background-color: purple;
+    min-height: 100px;
+    min-width: 250px;
+    float: bottom;
+  }
+
+  .d {
+    background-color: orange;
+    min-height: 100px;
+    min-width: 250px;
+    float: bottom;
+  }
+}
